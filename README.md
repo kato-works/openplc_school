@@ -54,6 +54,19 @@ OpenPLCの週1回・1時間の学習プログラムを設計する場合、以�
   - 簡易信号制御
 - 応用展開：Modbus対応／MQTT連携への導入
 
+### セッション資料リンク
+
+| 回 | 内容 |
+|---|---|
+| [第1回](doc/Session01.md) | 導入とOpenPLCの基礎 |
+| [第2回](doc/Session02.md) | LDの構造と基本命令 |
+| [第3回](doc/Session03.md) | タイマ・カウンタの活用 |
+| [第4回](doc/Session04.md) | シミュレーションとI/Oハードウェア接続 |
+| [第5回](doc/Session05.md) | ファンクションブロックとST言語入門 |
+| [第6回](doc/Session06.md) | 押しボタンでモータ制御 |
+| [第7回](doc/Session07.md) | 信号灯とアラームシーケンス |
+| [第8回](doc/Session08.md) | 総合演習と応用展開 |
+
 ### 🧩 補足
 
 - 実習には OpenPLC Editor（PC）＋OpenPLC Runtime（Raspberry Piなど） の構成が最適です。
