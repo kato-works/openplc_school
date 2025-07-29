@@ -2,7 +2,16 @@
 
 このセッションでは、PLCやOpenPLCの概要を理解し、環境を準備して簡単なラダー回路を試します。
 
-- PLCとは？OpenPLCとは？産業用途での意義
-- OpenPLC Editor／Runtimeのインストール
-- Hello World：簡単なLadder Diagram（例：タイマでLED点滅）
+## PLCとは？OpenPLCとは？産業用途での意義
+- PLCはセンサーやアクチュエータをプログラムで制御する産業用コンピュータです。
+- OpenPLCはオープンソースで利用できるPLCソフトウェアで、教育や小規模案件に適しています。
+- 市販PLCと共通する操作体系を学ぶことで、実際の制御装置への応用が容易になります。
 
+## OpenPLC Editor／Runtimeのインストール
+- 公式サイトからWindows/Linux/Mac版のEditorをダウンロードしてインストールします。
+- Raspberry Piなどの実機やPC上のシミュレーターにRuntimeを導入し、IPアドレス設定でEditorと接続します。
+
+## Hello World：簡単なLadder Diagram（例：タイマでLED点滅）
+- 新規プロジェクトを作成し、デジタル入力とLED出力を定義します。
+- TONタイマブロックを配置し、一定間隔でLEDが点滅する回路を組みます。
+- プログラムをビルドしてRuntimeへ転送し、シミュレータまたは実機で動作を確認します。
